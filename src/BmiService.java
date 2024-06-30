@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class BmiService {
+public class BmiService {
+    public int calculate(double weightKg, double heightM) {
+        double bmi = weightKg / (heightM * heightM);
+        return (int) bmi;
+    }
 }
